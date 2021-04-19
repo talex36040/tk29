@@ -1,0 +1,81 @@
+body {
+  background-image: url(../img/fon.jpg);
+  font-style: 18px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.site-menu {
+  display: flex;
+  justify-self: start;
+  list-style-type: none;
+}
+.site-menu a {
+  text-decoration: none;
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+  list-style: none;
+  display: block;
+  margin-right: 40px;
+  font-size: 20px;
+  color: white;
+  font-family: Verdana, sans-serif;
+  display: flex;
+}
+.container {
+  padding: 40px;
+}
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  writing-mode: vertical-rl;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+}
+.p {
+  color: white;
+}
+.h1-main {
+  text-align: center;
+}
+.advance {
+  text-align: justify;
+  font-size: 18px;
+}
+.advance-li {
+  padding: 15px;
+}
+.advance-div {
+  margin-bottom: 95px;
+}
+.game-1 {
+  float: left;
+  margin: 10px;
+  border-radius: 10px;
+}
+.vr {
+  width: 350px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.image-right {
+  width: 350px;
+  float: right;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.contact {
+  margin-left: 0;
+}
+.container-contact {
+  display: flex;
+  justify-content: start;
+}
